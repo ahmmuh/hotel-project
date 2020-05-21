@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header id="header">
+            <h1>Välkommen till vårt hotell </h1>
+            <p class="availableRooms"></p>
+        </header>
+        <div class="col">
+            <div>
+                <h1>Boka rum</h1>
+                <span class="formMessage"></span>
+                <form id="form">
+                    <div class="form-control">
+                        <label>Namn:</label>
+                        <input type="text" class="name" placeholder="namn">
+
+                    </div>
+                    <div class="form-control">
+                        <label>Tel:</label>
+                        <input type="text" class="tel" placeholder="tel">
+                    </div>
+                    <div class="form-control">
+                        <label>E-post:</label>
+                        <input type="email" class="email" placeholder="email">
+                    </div>
+                    <div class="check">
+                        <div>
+                            <label>Incheckning:</label>
+                            <input type="date" class="inCheck">
+                        </div>
+                        <div>
+                            <label>Utcheckning:</label>
+                            <input type="date" class="outCheck">
+                        </div>
+                    </div>
+                    <button class="book-btn">Boka rum</button>
+                </form>
+            </div>
+            <div class="booked">
+                <h1>bokade rum</h1>
+                <ul class="bokedRooms"></ul>
+            </div>
+            <div>
+                <h3>Våra fina rum</h3>
+                <ul class="available">
+
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

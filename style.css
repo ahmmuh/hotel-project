@@ -1,0 +1,109 @@
+body {
+    background-color: whitesmoke;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #fff;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.container header {
+    background-color: rgb(240, 238, 234);
+    height: 20vh;
+    border: none;
+}
+
+.container header h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header p {
+    background-color: green;
+    color: white;
+    padding: 2px 20px;
+}
+
+.col {
+    margin-top: -15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.col>div {
+    padding: 10px;
+    border-left: 1px solid #222;
+}
+
+.col>div h3 {
+    text-align: center;
+}
+
+#form .form-control input {
+    width: 95%;
+    font-size: 10px;
+    padding: 6px;
+    display: block;
+}
+
+.check {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+}
+
+.check>div input {
+    display: block;
+    padding: 5px;
+}
+
+.book-btn {
+    background-color: green;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 5px;
+    outline: none;
+    border-radius: 10px;
+}
+
+input {
+    border-radius: 1rem;
+    outline: none;
+}
+
+::placeholder {
+    font-size: 14px;
+}
+
+.available {
+    list-style-type: none;
+}
+
+.available li {
+    color: green;
+    font-size: 20px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.booked {
+    color: red;
+    font-size: 16px;
+}
+
+.formMessage {
+    color: red;
+}
